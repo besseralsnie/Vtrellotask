@@ -1,0 +1,671 @@
+{
+  "[batch: batch-1][stories-chain: file:/D:/rumachyk/vproject/vividus-starter/output/resources/main/story/web/VisualTests.story][scenario: Visual test of context element]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "4136e4ebbdb2c35e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591173861172,
+        "stop" : 1591173864323,
+        "duration" : 3151
+      }
+    }, {
+      "uid" : "cfd453eb2cb8c2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591109390422,
+        "stop" : 1591109393659,
+        "duration" : 3237
+      }
+    } ]
+  },
+  "[batch: batch-1][stories-chain: file:/D:/rumachyk/vproject/vividus-starter/output/resources/main/story/web/GoogleSearch.story][scenario: My watchlist first part]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 4,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 9
+    },
+    "items" : [ {
+      "uid" : "89e6df90aa6b0179",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591195003188,
+        "stop" : 1591195023356,
+        "duration" : 20168
+      }
+    }, {
+      "uid" : "f98bebac351a0dc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591194903778,
+        "stop" : 1591194917776,
+        "duration" : 13998
+      }
+    }, {
+      "uid" : "6180676a61c3a6d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591194789229,
+        "stop" : 1591194803968,
+        "duration" : 14739
+      }
+    }, {
+      "uid" : "19bac3c7166c6ab6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591194522882,
+        "stop" : 1591194537158,
+        "duration" : 14276
+      }
+    }, {
+      "uid" : "605d4a116f2a1f7e",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1591194335804,
+        "stop" : 1591194349593,
+        "duration" : 13789
+      }
+    }, {
+      "uid" : "45a35775f3efe671",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1591194055330,
+        "stop" : 1591194069021,
+        "duration" : 13691
+      }
+    }, {
+      "uid" : "fc99c2d2e7191633",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591193870537,
+        "stop" : 1591193885104,
+        "duration" : 14567
+      }
+    }, {
+      "uid" : "5253577fd539354e",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1591193669532,
+        "stop" : 1591193684462,
+        "duration" : 14930
+      }
+    }, {
+      "uid" : "17160b5a1b7a50a5",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1591193510693,
+        "stop" : 1591193510800,
+        "duration" : 107
+      }
+    } ]
+  },
+  "[batch: batch-1][stories-chain: file:/D:/rumachyk/vproject/vividus-starter/output/resources/main/story/web/GoogleSearch.story][scenario: My watchlist fiest part]" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "935b3eda6db1bffe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591188203514,
+        "stop" : 1591188216626,
+        "duration" : 13112
+      }
+    }, {
+      "uid" : "b7c78531556ea946",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591186512518,
+        "stop" : 1591186524860,
+        "duration" : 12342
+      }
+    }, {
+      "uid" : "9784adb1cb9db565",
+      "status" : "failed",
+      "statusDetails" : "1) An element with attributes URL: 'https://www.imdb.com/registration/signin?ref=nv_generic_lgin'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]",
+      "time" : {
+        "start" : 1591185962693,
+        "stop" : 1591185979684,
+        "duration" : 16991
+      }
+    }, {
+      "uid" : "f224b73ba909e804",
+      "status" : "broken",
+      "statusDetails" : "Failed to convert CLICK for Enum org.vividus.ui.web.action.CheckboxAction",
+      "time" : {
+        "start" : 1591184909197,
+        "stop" : 1591184917815,
+        "duration" : 8618
+      }
+    }, {
+      "uid" : "a13441a351478fa8",
+      "status" : "broken",
+      "statusDetails" : "Failed to convert CLICK for Enum org.vividus.ui.web.action.CheckboxAction",
+      "time" : {
+        "start" : 1591182762426,
+        "stop" : 1591182770520,
+        "duration" : 8094
+      }
+    } ]
+  },
+  "[batch: batch-1][stories-chain: file:/D:/rumachyk/vproject/vividus-starter/output/resources/main/story/web/VisualTests.story][scenario: Open google search main page]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "a2d5f1b6513a76fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591173849812,
+        "stop" : 1591173856014,
+        "duration" : 6202
+      }
+    }, {
+      "uid" : "ef46703a2e3aa12b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591109381405,
+        "stop" : 1591109387567,
+        "duration" : 6162
+      }
+    } ]
+  },
+  "[batch: batch-1][stories-chain: file:/D:/rumachyk/vproject/vividus-starter/output/resources/main/story/web/IMDb.story][scenario: Sign in]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 22,
+      "unknown" : 0,
+      "total" : 22
+    },
+    "items" : [ {
+      "uid" : "3a9f43177b23f595",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591205838628,
+        "stop" : 1591205858715,
+        "duration" : 20087
+      }
+    }, {
+      "uid" : "6b864789005979ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591205634600,
+        "stop" : 1591205655849,
+        "duration" : 21249
+      }
+    }, {
+      "uid" : "9fbfbe7a42205f76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591203150394,
+        "stop" : 1591203169921,
+        "duration" : 19527
+      }
+    }, {
+      "uid" : "15a02c55149910c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591202720843,
+        "stop" : 1591202739326,
+        "duration" : 18483
+      }
+    }, {
+      "uid" : "4d1f708cdd504b8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591202568976,
+        "stop" : 1591202586488,
+        "duration" : 17512
+      }
+    }, {
+      "uid" : "20d636a24fe391f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591202384490,
+        "stop" : 1591202403590,
+        "duration" : 19100
+      }
+    }, {
+      "uid" : "88c8373268786a90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591201886281,
+        "stop" : 1591201905100,
+        "duration" : 18819
+      }
+    }, {
+      "uid" : "c98297c98dfeeef1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591201780344,
+        "stop" : 1591201799996,
+        "duration" : 19652
+      }
+    }, {
+      "uid" : "36f91b0aef42e610",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591200770855,
+        "stop" : 1591200789380,
+        "duration" : 18525
+      }
+    }, {
+      "uid" : "2cb1ec84add9ffad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591200639421,
+        "stop" : 1591200658643,
+        "duration" : 19222
+      }
+    }, {
+      "uid" : "7d9ddf33097a90cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591199920770,
+        "stop" : 1591199939044,
+        "duration" : 18274
+      }
+    }, {
+      "uid" : "1c2e4d8211858177",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591199824544,
+        "stop" : 1591199842736,
+        "duration" : 18192
+      }
+    }, {
+      "uid" : "ac85e1b45a50bba1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591199567292,
+        "stop" : 1591199585787,
+        "duration" : 18495
+      }
+    }, {
+      "uid" : "8cb50b152eb508f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591199368197,
+        "stop" : 1591199388045,
+        "duration" : 19848
+      }
+    }, {
+      "uid" : "3ecefa93aedecd7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591198706970,
+        "stop" : 1591198725594,
+        "duration" : 18624
+      }
+    }, {
+      "uid" : "618853a0f02cefeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591198517709,
+        "stop" : 1591198537438,
+        "duration" : 19729
+      }
+    }, {
+      "uid" : "a93344ffc10989f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591198357621,
+        "stop" : 1591198374689,
+        "duration" : 17068
+      }
+    }, {
+      "uid" : "b26056cbcc00ef3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591197520219,
+        "stop" : 1591197538311,
+        "duration" : 18092
+      }
+    }, {
+      "uid" : "98f6bf2d7f264c26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591197223271,
+        "stop" : 1591197243787,
+        "duration" : 20516
+      }
+    }, {
+      "uid" : "7c697c8e481b56d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591196989426,
+        "stop" : 1591197008158,
+        "duration" : 18732
+      }
+    } ]
+  },
+  "[batch: batch-1][stories-chain: file:/D:/rumachyk/vproject/vividus-starter/output/resources/main/story/web/GoogleSearch.story][scenario: Open google search main page]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "72247afe43687880",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591173835127,
+        "stop" : 1591173843749,
+        "duration" : 8622
+      }
+    }, {
+      "uid" : "a7da4ec2d4c1afbf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591109366733,
+        "stop" : 1591109376301,
+        "duration" : 9568
+      }
+    } ]
+  },
+  "[batch: batch-1][stories-chain: file:/D:/rumachyk/vproject/vividus-starter/output/resources/main/story/web/IMDb.story][scenario: My watchlist]" : {
+    "statistic" : {
+      "failed" : 6,
+      "broken" : 5,
+      "skipped" : 3,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 22
+    },
+    "items" : [ {
+      "uid" : "5ae9c4cb824261e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591205858798,
+        "stop" : 1591205872259,
+        "duration" : 13461
+      }
+    }, {
+      "uid" : "ff702399df59caa7",
+      "status" : "failed",
+      "statusDetails" : "1) An element with attributes XPath: '//*[normalize-space(@id)=\"title-overview-widget\"]/div[2]/div[2]/button[2]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n2) An element with attributes Link text: 'Watchlist'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n3) An element with attributes Link text: 'Export this list'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]",
+      "time" : {
+        "start" : 1591205655899,
+        "stop" : 1591205736917,
+        "duration" : 81018
+      }
+    }, {
+      "uid" : "ed311576ceb2ef6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591203170023,
+        "stop" : 1591203182551,
+        "duration" : 12528
+      }
+    }, {
+      "uid" : "a317673b9af32822",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591202739363,
+        "stop" : 1591202751953,
+        "duration" : 12590
+      }
+    }, {
+      "uid" : "32f15b4944a6b592",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591202586532,
+        "stop" : 1591202594395,
+        "duration" : 7863
+      }
+    }, {
+      "uid" : "187b14983d12926d",
+      "status" : "failed",
+      "statusDetails" : "1) An element with attributes XPath: '//div[normalize-space(@class)='ipc-button__text']'; Visibility: VISIBLE; [Expected: number of elements is a value equal to <1> Actual: <6>]",
+      "time" : {
+        "start" : 1591202403614,
+        "stop" : 1591202417907,
+        "duration" : 14293
+      }
+    }, {
+      "uid" : "c1c2055de356c1c0",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1591201905133,
+        "stop" : 1591201912408,
+        "duration" : 7275
+      }
+    }, {
+      "uid" : "fa8faefc401a224c",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1591201800029,
+        "stop" : 1591201807924,
+        "duration" : 7895
+      }
+    }, {
+      "uid" : "1442b448d83e6f97",
+      "status" : "failed",
+      "statusDetails" : "1) An element with attributes XPath: '//*[normalize-space(@id)=\"title-overview-widget\"]/div[2]/div[2]/button[2]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]",
+      "time" : {
+        "start" : 1591200789430,
+        "stop" : 1591200818185,
+        "duration" : 28755
+      }
+    }, {
+      "uid" : "c29855f44914159a",
+      "status" : "failed",
+      "statusDetails" : "1) An element with attributes XPath: '//*[normalize-space(@id)=\"title-overview-widget\"]/div[2]/div[2]/button[2]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n2) Wait with timeout of 0 seconds. Condition: presence of any elements located by By.xpath: //div[normalize-space(@class)=\"sc-kpOJdX gBwnwt imdb-header__watchlist-button\". Error: invalid selector: Unable to locate an element with the xpath expression //div[normalize-space(@class)=\"sc-kpOJdX gBwnwt imdb-header__watchlist-button\" because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[normalize-space(@class)=\"sc-kpOJdX gBwnwt imdb-header__watchlist-button\"' is not a valid XPath expression.\n  (Session info: chrome=83.0.4103.61)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'DESKTOP-SOP3A2H', ip: '192.168.100.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\DARYAR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:51255}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c12620f781073b044340598bb838e0aa\n*** Element info: {Using=xpath, value=//div[normalize-space(@class)=\"sc-kpOJdX gBwnwt imdb-header__watchlist-button\"}\r\n3) An element with attributes XPath: '//div[normalize-space(@class)=\"sc-kpOJdX gBwnwt imdb-header__watchlist-button\"'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]",
+      "time" : {
+        "start" : 1591200658700,
+        "stop" : 1591200716593,
+        "duration" : 57893
+      }
+    }, {
+      "uid" : "73a3ad1878a9ba64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591199939105,
+        "stop" : 1591199947755,
+        "duration" : 8650
+      }
+    }, {
+      "uid" : "68ea500e0e9d44c6",
+      "status" : "broken",
+      "statusDetails" : "Invalid locator format. Expected matches [(?:By\\.)?([a-zA-Z]+)\\((.+?)\\):?([a-zA-Z]*)?] Actual: [By.xpath(//*[@id=\"title-overview-widget\"]/div[2]/div[2]/button[2]'\n)]",
+      "time" : {
+        "start" : 1591199842766,
+        "stop" : 1591199851517,
+        "duration" : 8751
+      }
+    }, {
+      "uid" : "d1fb26122d631792",
+      "status" : "broken",
+      "statusDetails" : "Invalid locator format. Expected matches [(?:By\\.)?([a-zA-Z]+)\\((.+?)\\):?([a-zA-Z]*)?] Actual: [By.buttonName(Add to Watchlist'\n)]",
+      "time" : {
+        "start" : 1591199585834,
+        "stop" : 1591199593381,
+        "duration" : 7547
+      }
+    }, {
+      "uid" : "2129eeba96cd739b",
+      "status" : "broken",
+      "statusDetails" : "Invalid locator format. Expected matches [(?:By\\.)?([a-zA-Z]+)\\((.+?)\\):?([a-zA-Z]*)?] Actual: [By.xpath(//span[text()=\"Add to Watchlist\"]\n)]",
+      "time" : {
+        "start" : 1591199388103,
+        "stop" : 1591199396917,
+        "duration" : 8814
+      }
+    }, {
+      "uid" : "929f71f1b3658573",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591198725676,
+        "stop" : 1591198735292,
+        "duration" : 9616
+      }
+    }, {
+      "uid" : "adf41049d5ed68d6",
+      "status" : "failed",
+      "statusDetails" : "1) Wait with timeout of 0 seconds. Condition: presence of any elements located by By.xpath: //span[text()=Pirates of the Caribbean: The Curse of the Black Pearl]. Error: invalid selector: Unable to locate an element with the xpath expression //span[text()=Pirates of the Caribbean: The Curse of the Black Pearl] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[text()=Pirates of the Caribbean: The Curse of the Black Pearl]' is not a valid XPath expression.\n  (Session info: chrome=83.0.4103.61)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'DESKTOP-SOP3A2H', ip: '192.168.100.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\DARYAR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:57475}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: f35720eb19249c46a89ef4212e39b580\n*** Element info: {Using=xpath, value=//span[text()=Pirates of the Caribbean: The Curse of the Black Pearl]}\r\n2) An element with attributes XPath: '//span[text()=Pirates of the Caribbean: The Curse of the Black Pearl]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]",
+      "time" : {
+        "start" : 1591198537520,
+        "stop" : 1591198548245,
+        "duration" : 10725
+      }
+    }, {
+      "uid" : "b240bdbdaf18adff",
+      "status" : "failed",
+      "statusDetails" : "1) An element with attributes URL: 'https://www.imdb.com/title/tt0325980/?ref_=fn_al_tt_1'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]",
+      "time" : {
+        "start" : 1591198374718,
+        "stop" : 1591198382010,
+        "duration" : 7292
+      }
+    }, {
+      "uid" : "a8b0521e511bd5fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591197538361,
+        "stop" : 1591197542505,
+        "duration" : 4144
+      }
+    }, {
+      "uid" : "9e22a7ecf4954bcb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591197243824,
+        "stop" : 1591197244293,
+        "duration" : 469
+      }
+    }, {
+      "uid" : "5c1de519c57ad9ca",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1591197008216,
+        "stop" : 1591197008261,
+        "duration" : 45
+      }
+    } ]
+  },
+  "[batch: batch-1][stories-chain: file:/D:/rumachyk/vproject/vividus-starter/output/resources/main/story/web/VisualTests.story][scenario: Visual test of a page]" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "c37a26d2399275d1",
+      "status" : "failed",
+      "statusDetails" : "1) Visual check passed [The condition is false]",
+      "time" : {
+        "start" : 1591173856023,
+        "stop" : 1591173861168,
+        "duration" : 5145
+      }
+    }, {
+      "uid" : "d9d870c74e7daa6f",
+      "status" : "failed",
+      "statusDetails" : "1) Visual check passed [The condition is false]",
+      "time" : {
+        "start" : 1591109387575,
+        "stop" : 1591109390420,
+        "duration" : 2845
+      }
+    } ]
+  },
+  "[batch: batch-1][stories-chain: file:/D:/rumachyk/vproject/vividus-starter/output/resources/main/story/api/GoogleSearchHealthCheck.story][scenario: Verify google search is available]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "d0c78ec3f3360ae4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591172945475,
+        "stop" : 1591172946339,
+        "duration" : 864
+      }
+    }, {
+      "uid" : "ee6958262819a2ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591112691039,
+        "stop" : 1591112691725,
+        "duration" : 686
+      }
+    }, {
+      "uid" : "5aa2a948381d324a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591110119147,
+        "stop" : 1591110120702,
+        "duration" : 1555
+      }
+    } ]
+  },
+  "[batch: batch-1][stories-chain: file:/D:/rumachyk/vproject/vividus-starter/output/resources/main/story/web/GoogleSearch.story][scenario: Search validation]" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "be2b2f0791b28ce8",
+      "status" : "failed",
+      "statusDetails" : "1) An element with attributes Element name: 'q'; Visibility: VISIBLE; [Expected: number of elements is a value equal to <1> Actual: <2>]\r\n2) The number of found elements [Expected: number of elements is a value equal to <1> Actual: <0>]",
+      "time" : {
+        "start" : 1591173843775,
+        "stop" : 1591173848678,
+        "duration" : 4903
+      }
+    }, {
+      "uid" : "69fdd344a8f844d7",
+      "status" : "failed",
+      "statusDetails" : "1) An element with attributes Element name: 'q'; Visibility: VISIBLE; [Expected: number of elements is a value equal to <1> Actual: <2>]\r\n2) The number of found elements [Expected: number of elements is a value equal to <1> Actual: <0>]",
+      "time" : {
+        "start" : 1591109376321,
+        "stop" : 1591109380566,
+        "duration" : 4245
+      }
+    } ]
+  }
+}

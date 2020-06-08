@@ -1,0 +1,35 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "IMDb",
+    "children" : [ {
+      "name" : "Sign in",
+      "uid" : "3a9f43177b23f595",
+      "parentUid" : "9748d68d9b577d6bf9e1cd85c6b5c050",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591205838628,
+        "stop" : 1591205858715,
+        "duration" : 20087
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "My watchlist",
+      "uid" : "5ae9c4cb824261e2",
+      "parentUid" : "9748d68d9b577d6bf9e1cd85c6b5c050",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591205858798,
+        "stop" : 1591205872259,
+        "duration" : 13461
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9748d68d9b577d6bf9e1cd85c6b5c050"
+  } ]
+}

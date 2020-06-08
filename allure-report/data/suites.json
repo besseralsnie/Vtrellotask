@@ -1,0 +1,39 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "batch-1",
+    "children" : [ {
+      "name" : "IMDb",
+      "children" : [ {
+        "name" : "Sign in",
+        "uid" : "3a9f43177b23f595",
+        "parentUid" : "ca5d096f1dcf4d15580622c4928d2e78",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591205838628,
+          "stop" : 1591205858715,
+          "duration" : 20087
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "My watchlist",
+        "uid" : "5ae9c4cb824261e2",
+        "parentUid" : "ca5d096f1dcf4d15580622c4928d2e78",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591205858798,
+          "stop" : 1591205872259,
+          "duration" : 13461
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ca5d096f1dcf4d15580622c4928d2e78"
+    } ],
+    "uid" : "87b8be25e9c9e007e80824e508a2043b"
+  } ]
+}

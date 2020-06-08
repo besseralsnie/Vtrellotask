@@ -1,0 +1,21 @@
+[ {
+  "uid" : "5ae9c4cb824261e2",
+  "name" : "My watchlist",
+  "time" : {
+    "start" : 1591205858798,
+    "stop" : 1591205872259,
+    "duration" : 13461
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a9f43177b23f595",
+  "name" : "Sign in",
+  "time" : {
+    "start" : 1591205838628,
+    "stop" : 1591205858715,
+    "duration" : 20087
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

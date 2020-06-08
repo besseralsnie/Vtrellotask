@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jun 03 20:37:38 MSK 2020","Wed Jun 03 20:37:52 MSK 2020","13461","batch-1","IMDb","","","","My watchlist",""
+"passed","Wed Jun 03 20:37:18 MSK 2020","Wed Jun 03 20:37:38 MSK 2020","20087","batch-1","IMDb","","","","Sign in",""

@@ -1,0 +1,738 @@
+{
+  "uid" : "5ae9c4cb824261e2",
+  "name" : "My watchlist",
+  "historyId" : "[batch: batch-1][stories-chain: file:/D:/rumachyk/vproject/vividus-starter/output/resources/main/story/web/IMDb.story][scenario: My watchlist]",
+  "time" : {
+    "start" : 1591205858798,
+    "stop" : 1591205872259,
+    "duration" : 13461
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When I enter 'pirates of the caribbean' in a field with the name 'q'",
+      "time" : {
+        "start" : 1591205858799,
+        "stop" : 1591205859589,
+        "duration" : 790
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "When I enter `｟pirates of the caribbean｠` in field located `By.fieldName(｟q｠)`",
+        "time" : {
+          "start" : 1591205858799,
+          "stop" : 1591205859589,
+          "duration" : 790
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Total number of elements found By.xpath: .//*[(local-name() = 'input' or local-name() = 'textarea' or local-name()='body') and ((@* | text())=\"q\")] is equal to 1\r\n",
+          "time" : {
+            "start" : 1591205858848,
+            "stop" : 1591205858848,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Pass: An element with attributes Field name: 'q'; Visibility: VISIBLE; exists\r\n",
+          "time" : {
+            "start" : 1591205858901,
+            "stop" : 1591205858901,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Pass: An element with attributes: ' Field name: 'q'; Visibility: VISIBLE;' exists\r\n",
+          "time" : {
+            "start" : 1591205858901,
+            "stop" : 1591205858901,
+            "duration" : 0
+          },
+          "status" : "unknown",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Entering text \"pirates of the caribbean\" in element\r\n",
+          "time" : {
+            "start" : 1591205858980,
+            "stop" : 1591205858980,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 4,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 5,
+      "hasContent" : true
+    }, {
+      "name" : "When I click on an element by the xpath '//*[@id=\"suggestion-search-button\"]'",
+      "time" : {
+        "start" : 1591205859589,
+        "stop" : 1591205863480,
+        "duration" : 3891
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "When I click on element located `By.xpath(｟//*[@id=\"suggestion-search-button\"]｠)`",
+        "time" : {
+          "start" : 1591205859590,
+          "stop" : 1591205863480,
+          "duration" : 3890
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Total number of elements found By.xpath: //*[normalize-space(@id)=\"suggestion-search-button\"] is equal to 1\r\n",
+          "time" : {
+            "start" : 1591205859628,
+            "stop" : 1591205859628,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Pass: An element with attributes XPath: '//*[normalize-space(@id)=\"suggestion-search-button\"]'; Visibility: VISIBLE; exists\r\n",
+          "time" : {
+            "start" : 1591205859684,
+            "stop" : 1591205859684,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Pass: An element with attributes: ' XPath: '//*[normalize-space(@id)=\"suggestion-search-button\"]'; Visibility: VISIBLE;' exists\r\n",
+          "time" : {
+            "start" : 1591205859684,
+            "stop" : 1591205859684,
+            "duration" : 0
+          },
+          "status" : "unknown",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 3,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "When I click on a link with the text 'Pirates of the Caribbean: The Curse of the Black Pearl'",
+      "time" : {
+        "start" : 1591205863480,
+        "stop" : 1591205866578,
+        "duration" : 3098
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "When I click on element located `By.linkText(｟Pirates of the Caribbean: The Curse of the Black Pearl｠)`",
+        "time" : {
+          "start" : 1591205863480,
+          "stop" : 1591205866578,
+          "duration" : 3098
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Total number of elements found By.linkText: Pirates of the Caribbean: The Curse of the Black Pearl is equal to 1\r\n",
+          "time" : {
+            "start" : 1591205863591,
+            "stop" : 1591205863591,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Pass: An element with attributes Link text: 'Pirates of the Caribbean: The Curse of the Black Pearl'; Visibility: VISIBLE; exists\r\n",
+          "time" : {
+            "start" : 1591205863625,
+            "stop" : 1591205863625,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Pass: An element with attributes: ' Link text: 'Pirates of the Caribbean: The Curse of the Black Pearl'; Visibility: VISIBLE;' exists\r\n",
+          "time" : {
+            "start" : 1591205863625,
+            "stop" : 1591205863625,
+            "duration" : 0
+          },
+          "status" : "unknown",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 3,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "When I click on an element by the xpath '//*[@id=\"title-overview-widget\"]/div[2]/div[2]/button[2]'",
+      "time" : {
+        "start" : 1591205866578,
+        "stop" : 1591205867630,
+        "duration" : 1052
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "When I click on element located `By.xpath(｟//*[@id=\"title-overview-widget\"]/div[2]/div[2]/button[2]｠)`",
+        "time" : {
+          "start" : 1591205866578,
+          "stop" : 1591205867630,
+          "duration" : 1052
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Total number of elements found By.xpath: //*[normalize-space(@id)=\"title-overview-widget\"]/div[2]/div[2]/button[2] is equal to 1\r\n",
+          "time" : {
+            "start" : 1591205866596,
+            "stop" : 1591205866596,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Pass: An element with attributes XPath: '//*[normalize-space(@id)=\"title-overview-widget\"]/div[2]/div[2]/button[2]'; Visibility: VISIBLE; exists\r\n",
+          "time" : {
+            "start" : 1591205866629,
+            "stop" : 1591205866629,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Pass: An element with attributes: ' XPath: '//*[normalize-space(@id)=\"title-overview-widget\"]/div[2]/div[2]/button[2]'; Visibility: VISIBLE;' exists\r\n",
+          "time" : {
+            "start" : 1591205866629,
+            "stop" : 1591205866629,
+            "duration" : 0
+          },
+          "status" : "unknown",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 3,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "When I click on a link with the text 'Watchlist'",
+      "time" : {
+        "start" : 1591205867630,
+        "stop" : 1591205870808,
+        "duration" : 3178
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "When I click on element located `By.linkText(｟Watchlist｠)`",
+        "time" : {
+          "start" : 1591205867630,
+          "stop" : 1591205870808,
+          "duration" : 3178
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Total number of elements found By.linkText: Watchlist is equal to 1\r\n",
+          "time" : {
+            "start" : 1591205867897,
+            "stop" : 1591205867897,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Pass: An element with attributes Link text: 'Watchlist'; Visibility: VISIBLE; exists\r\n",
+          "time" : {
+            "start" : 1591205867922,
+            "stop" : 1591205867922,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Pass: An element with attributes: ' Link text: 'Watchlist'; Visibility: VISIBLE;' exists\r\n",
+          "time" : {
+            "start" : 1591205867922,
+            "stop" : 1591205867922,
+            "duration" : 0
+          },
+          "status" : "unknown",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 3,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "When I click on a link with the text 'Export this list'",
+      "time" : {
+        "start" : 1591205870808,
+        "stop" : 1591205872257,
+        "duration" : 1449
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "When I click on element located `By.linkText(｟Export this list｠)`",
+        "time" : {
+          "start" : 1591205870808,
+          "stop" : 1591205872257,
+          "duration" : 1449
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Total number of elements found By.linkText: Export this list is equal to 1\r\n",
+          "time" : {
+            "start" : 1591205870906,
+            "stop" : 1591205870906,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Pass: An element with attributes Link text: 'Export this list'; Visibility: VISIBLE; exists\r\n",
+          "time" : {
+            "start" : 1591205870932,
+            "stop" : 1591205870932,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Pass: An element with attributes: ' Link text: 'Export this list'; Visibility: VISIBLE;' exists\r\n",
+          "time" : {
+            "start" : 1591205870932,
+            "stop" : 1591205870932,
+            "duration" : 0
+          },
+          "status" : "unknown",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 3,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "@AfterScenario",
+      "time" : {
+        "start" : 1591205872259,
+        "stop" : 1591205872259,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Passed verification: 6 of 6 assertions passed.\r\n",
+        "time" : {
+          "start" : 1591205872259,
+          "stop" : 1591205872259,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 33,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "batch-1"
+  }, {
+    "name" : "suite",
+    "value" : "IMDb"
+  }, {
+    "name" : "story",
+    "value" : "IMDb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SOP3A2H"
+  }, {
+    "name" : "thread",
+    "value" : "7160@DESKTOP-SOP3A2H.batch-1-thread-1(31)"
+  }, {
+    "name" : "framework",
+    "value" : "Vividus"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 6,
+        "broken" : 5,
+        "skipped" : 3,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 22
+      },
+      "items" : [ {
+        "uid" : "ff702399df59caa7",
+        "status" : "failed",
+        "statusDetails" : "1) An element with attributes XPath: '//*[normalize-space(@id)=\"title-overview-widget\"]/div[2]/div[2]/button[2]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n2) An element with attributes Link text: 'Watchlist'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n3) An element with attributes Link text: 'Export this list'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]",
+        "time" : {
+          "start" : 1591205655899,
+          "stop" : 1591205736917,
+          "duration" : 81018
+        }
+      }, {
+        "uid" : "ed311576ceb2ef6e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591203170023,
+          "stop" : 1591203182551,
+          "duration" : 12528
+        }
+      }, {
+        "uid" : "a317673b9af32822",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591202739363,
+          "stop" : 1591202751953,
+          "duration" : 12590
+        }
+      }, {
+        "uid" : "32f15b4944a6b592",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591202586532,
+          "stop" : 1591202594395,
+          "duration" : 7863
+        }
+      }, {
+        "uid" : "187b14983d12926d",
+        "status" : "failed",
+        "statusDetails" : "1) An element with attributes XPath: '//div[normalize-space(@class)='ipc-button__text']'; Visibility: VISIBLE; [Expected: number of elements is a value equal to <1> Actual: <6>]",
+        "time" : {
+          "start" : 1591202403614,
+          "stop" : 1591202417907,
+          "duration" : 14293
+        }
+      }, {
+        "uid" : "c1c2055de356c1c0",
+        "status" : "skipped",
+        "statusDetails" : "Step is not implemented",
+        "time" : {
+          "start" : 1591201905133,
+          "stop" : 1591201912408,
+          "duration" : 7275
+        }
+      }, {
+        "uid" : "fa8faefc401a224c",
+        "status" : "skipped",
+        "statusDetails" : "Step is not implemented",
+        "time" : {
+          "start" : 1591201800029,
+          "stop" : 1591201807924,
+          "duration" : 7895
+        }
+      }, {
+        "uid" : "1442b448d83e6f97",
+        "status" : "failed",
+        "statusDetails" : "1) An element with attributes XPath: '//*[normalize-space(@id)=\"title-overview-widget\"]/div[2]/div[2]/button[2]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]",
+        "time" : {
+          "start" : 1591200789430,
+          "stop" : 1591200818185,
+          "duration" : 28755
+        }
+      }, {
+        "uid" : "c29855f44914159a",
+        "status" : "failed",
+        "statusDetails" : "1) An element with attributes XPath: '//*[normalize-space(@id)=\"title-overview-widget\"]/div[2]/div[2]/button[2]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n2) Wait with timeout of 0 seconds. Condition: presence of any elements located by By.xpath: //div[normalize-space(@class)=\"sc-kpOJdX gBwnwt imdb-header__watchlist-button\". Error: invalid selector: Unable to locate an element with the xpath expression //div[normalize-space(@class)=\"sc-kpOJdX gBwnwt imdb-header__watchlist-button\" because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[normalize-space(@class)=\"sc-kpOJdX gBwnwt imdb-header__watchlist-button\"' is not a valid XPath expression.\n  (Session info: chrome=83.0.4103.61)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'DESKTOP-SOP3A2H', ip: '192.168.100.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\DARYAR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:51255}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c12620f781073b044340598bb838e0aa\n*** Element info: {Using=xpath, value=//div[normalize-space(@class)=\"sc-kpOJdX gBwnwt imdb-header__watchlist-button\"}\r\n3) An element with attributes XPath: '//div[normalize-space(@class)=\"sc-kpOJdX gBwnwt imdb-header__watchlist-button\"'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]",
+        "time" : {
+          "start" : 1591200658700,
+          "stop" : 1591200716593,
+          "duration" : 57893
+        }
+      }, {
+        "uid" : "73a3ad1878a9ba64",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591199939105,
+          "stop" : 1591199947755,
+          "duration" : 8650
+        }
+      }, {
+        "uid" : "68ea500e0e9d44c6",
+        "status" : "broken",
+        "statusDetails" : "Invalid locator format. Expected matches [(?:By\\.)?([a-zA-Z]+)\\((.+?)\\):?([a-zA-Z]*)?] Actual: [By.xpath(//*[@id=\"title-overview-widget\"]/div[2]/div[2]/button[2]'\n)]",
+        "time" : {
+          "start" : 1591199842766,
+          "stop" : 1591199851517,
+          "duration" : 8751
+        }
+      }, {
+        "uid" : "d1fb26122d631792",
+        "status" : "broken",
+        "statusDetails" : "Invalid locator format. Expected matches [(?:By\\.)?([a-zA-Z]+)\\((.+?)\\):?([a-zA-Z]*)?] Actual: [By.buttonName(Add to Watchlist'\n)]",
+        "time" : {
+          "start" : 1591199585834,
+          "stop" : 1591199593381,
+          "duration" : 7547
+        }
+      }, {
+        "uid" : "2129eeba96cd739b",
+        "status" : "broken",
+        "statusDetails" : "Invalid locator format. Expected matches [(?:By\\.)?([a-zA-Z]+)\\((.+?)\\):?([a-zA-Z]*)?] Actual: [By.xpath(//span[text()=\"Add to Watchlist\"]\n)]",
+        "time" : {
+          "start" : 1591199388103,
+          "stop" : 1591199396917,
+          "duration" : 8814
+        }
+      }, {
+        "uid" : "929f71f1b3658573",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591198725676,
+          "stop" : 1591198735292,
+          "duration" : 9616
+        }
+      }, {
+        "uid" : "adf41049d5ed68d6",
+        "status" : "failed",
+        "statusDetails" : "1) Wait with timeout of 0 seconds. Condition: presence of any elements located by By.xpath: //span[text()=Pirates of the Caribbean: The Curse of the Black Pearl]. Error: invalid selector: Unable to locate an element with the xpath expression //span[text()=Pirates of the Caribbean: The Curse of the Black Pearl] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[text()=Pirates of the Caribbean: The Curse of the Black Pearl]' is not a valid XPath expression.\n  (Session info: chrome=83.0.4103.61)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'DESKTOP-SOP3A2H', ip: '192.168.100.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\DARYAR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:57475}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: f35720eb19249c46a89ef4212e39b580\n*** Element info: {Using=xpath, value=//span[text()=Pirates of the Caribbean: The Curse of the Black Pearl]}\r\n2) An element with attributes XPath: '//span[text()=Pirates of the Caribbean: The Curse of the Black Pearl]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]",
+        "time" : {
+          "start" : 1591198537520,
+          "stop" : 1591198548245,
+          "duration" : 10725
+        }
+      }, {
+        "uid" : "b240bdbdaf18adff",
+        "status" : "failed",
+        "statusDetails" : "1) An element with attributes URL: 'https://www.imdb.com/title/tt0325980/?ref_=fn_al_tt_1'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]",
+        "time" : {
+          "start" : 1591198374718,
+          "stop" : 1591198382010,
+          "duration" : 7292
+        }
+      }, {
+        "uid" : "a8b0521e511bd5fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591197538361,
+          "stop" : 1591197542505,
+          "duration" : 4144
+        }
+      }, {
+        "uid" : "9e22a7ecf4954bcb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591197243824,
+          "stop" : 1591197244293,
+          "duration" : 469
+        }
+      }, {
+        "uid" : "5c1de519c57ad9ca",
+        "status" : "skipped",
+        "statusDetails" : "Step is not implemented",
+        "time" : {
+          "start" : 1591197008216,
+          "stop" : 1591197008261,
+          "duration" : 45
+        }
+      }, {
+        "uid" : "b8afb82381130390",
+        "status" : "broken",
+        "statusDetails" : "invalid element state\n  (Session info: chrome=83.0.4103.61)\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'DESKTOP-SOP3A2H', ip: '192.168.100.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\DARYAR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:56199}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 128b1dbec625060496544555b8b3c51f",
+        "time" : {
+          "start" : 1591196416244,
+          "stop" : 1591196416314,
+          "duration" : 70
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5ae9c4cb824261e2.json",
+  "parameterValues" : [ ]
+}

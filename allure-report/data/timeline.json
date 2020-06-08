@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-SOP3A2H",
+    "children" : [ {
+      "name" : "7160@DESKTOP-SOP3A2H.batch-1-thread-1(31)",
+      "children" : [ {
+        "name" : "Sign in",
+        "uid" : "3a9f43177b23f595",
+        "parentUid" : "fa1c3279e29cecea603fb65aaf00273e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591205838628,
+          "stop" : 1591205858715,
+          "duration" : 20087
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "My watchlist",
+        "uid" : "5ae9c4cb824261e2",
+        "parentUid" : "fa1c3279e29cecea603fb65aaf00273e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591205858798,
+          "stop" : 1591205872259,
+          "duration" : 13461
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fa1c3279e29cecea603fb65aaf00273e"
+    } ],
+    "uid" : "b99ab09f47f427adad9e35d46c9dd621"
+  } ]
+}
